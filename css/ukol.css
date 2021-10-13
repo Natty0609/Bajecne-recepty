@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+
+
+html {
+	background-color: #C9BAE8;
+}
+
+.page-header {
+	background: #DAEC5F;
+	background: radial-gradient(ellipse at center, #FA0AF2 0%,#349ADF 100%);
+    text-align: center;
+	padding: 2rem 0;
+	margin: 3rem;
+	border-radius: 80rem;
+}
+
+.photo {
+	border-radius: 100%;
+	padding: 1rem;
+	margin: .5rem;
+	width: 500px;
+	height: 250px;
+	border: none;
+}
+
+.jc-center {
+	justify-content: center;
+}
+
+
+.main-section h2{
+	color: #9F41E1;
+	margin-top: 2%;
+	margin-left: 20%;
+
+}
+
+
+
+
+
+.flexbox {
+	display: flex;
+
+}
+
+
+
+
+.container {
+	max-width: 1100px; /* maximální šířka obsahu */
+	margin: 1.5rem 5rem; /* zarovnání na střed okna */
+}
+
+
+
+
+
+ .img {
+	width: 320px;
+	height: 250px;
+	border-radius: 70px;
+	margin-bottom: 10%;
+	border: 2px solid #A91FE3;
+}
+
+
+
+
+.main-section {
+	padding: 2rem 0; /* horní a dolní okraj sekce */
+}
+
+.main-section article {
+	text-align: left;
+	margin-right: 70px;
+    margin-left: 20px;
+    padding: 2px;
+
+}
+.width-30 {
+	width: 30%;
+}
+
+
+
+.main-menu  li {
+
+
+    list-style-type: none;
+	padding:1.5%;
+    background-color:#E98FDD;
+    width: 150%;
+    text-decoration: none;
+}
+
+.main-menu  a {
+
+
+    list-style-type: none;
+  padding:1.5%;
+    width: 150%;
+    text-decoration: none;
+}
+
+.jc-space-between {
+	justify-content: space-between;
+}
+
+.copyright {
+	margin-bottom: 0;
+
+}
+
+.footer nav {
+  margin-bottom: 50%;
+}
+
+
+.page-footer {
+	text-align: center;
+	padding: 2rem 0;
+}
+
+.footer-nav a:hover {
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+
+
+.has-submenu {
+	position: relative;
+}
+
+.submenu {
+	display: none;
+	flex-direction: column;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 80px;
+	margin-right: 50%;
+	transform: translateY(-10px);
+	opacity: 0;
+
+	transition: 0.3s ease-out;
+}
+
+.has-submenu:hover .submenu {
+	transform: translateY(0);
+	opacity: 1;
+
+	display: inline;
+}
